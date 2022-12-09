@@ -1,0 +1,35 @@
+.navOptions {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: #1234;
+    margin: 0px;
+    height: 35px;
+    padding-top: 14px;
+}
+
+.navOptions li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+.navOptions a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    margin-top: -30px;
+    height: 80px;
+    width: 80px;
+    animation: rotator 20s linear infinite;
+}
+
+@keyframes rotator {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
